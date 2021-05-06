@@ -1,0 +1,127 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4635,        119]
+NotebookOptionsPosition[      3870,         97]
+NotebookOutlinePosition[      4245,        113]
+CellTagsIndexPosition[      4202,        110]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\[Phi]angabe", "=", "0.7"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Beta]", "=", "1.1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]", "=", "6"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[CapitalOmega]", "=", 
+   RowBox[{"5", 
+    RowBox[{"\[Omega]", "/", "4"}]}]}], 
+  ";"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.8193461728919744`*^9, 3.8193461856149235`*^9}, {
+  3.8193466034278154`*^9, 3.819346617973507*^9}, {3.819346649780924*^9, 
+  3.819346691202769*^9}, {3.8193469437686663`*^9, 3.8193469981236196`*^9}, {
+  3.81934737044696*^9, 3.81934738274662*^9}, {3.8193476226316357`*^9, 
+  3.8193476330187345`*^9}, {3.8193778030702786`*^9, 3.8193778345207806`*^9}, {
+  3.819378734295227*^9, 3.819378742269348*^9}, {3.819383369345717*^9, 
+  3.8193833805201206`*^9}, {3.8193835117710524`*^9, 3.8193835194401937`*^9}, {
+  3.819383856777625*^9, 3.8193838679632635`*^9}, {3.8193879478523293`*^9, 
+  3.8193879621867476`*^9}, {3.819388954373006*^9, 3.819388983978901*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"ae2322e6-b69c-466e-8d8f-2182e67ed886"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[Phi]", "=", 
+  RowBox[{
+   RowBox[{"-", 
+    RowBox[{"ArcTan", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"2", "*", "\[Beta]", "*", "\[CapitalOmega]"}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"\[Omega]", "^", "2"}], "-", 
+        RowBox[{"\[CapitalOmega]", "^", "2"}]}], ")"}]}], "]"}]}], "-", "Pi", 
+   "+", "\[Phi]angabe", " ", 
+   RowBox[{"(*", "Phase", "*)"}]}]}]], "Input",
+ CellChangeTimes->{{3.8193470110386496`*^9, 3.8193471355932274`*^9}, {
+  3.8193471722490616`*^9, 3.819347177310193*^9}, {3.819347214498337*^9, 
+  3.8193473385354633`*^9}, {3.8193475608477726`*^9, 3.819347603036423*^9}, {
+  3.819377909263899*^9, 3.8193779815895467`*^9}},
+ CellLabel->"In[73]:=",ExpressionUUID->"c286d1fd-e574-4bf2-9899-290415c03ffe"],
+
+Cell[BoxData[
+ RowBox[{"-", "1.7578833419554218`"}]], "Output",
+ CellChangeTimes->{{3.8193472693099246`*^9, 3.8193473394668083`*^9}, 
+   3.819347568834571*^9, 3.8193476046786337`*^9, 3.8193478785214834`*^9, 
+   3.8193778685638437`*^9, {3.819377916523761*^9, 3.819377935706895*^9}, {
+   3.819377999381013*^9, 3.819378013605852*^9}, 3.819378756779557*^9, 
+   3.819383386442046*^9, 3.8193835261473255`*^9, 3.8193838736920166`*^9, 
+   3.819387967759277*^9, 3.8193889866458387`*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"95af1430-176f-4660-83ce-0989bbc8cddc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Sqrt", "[", 
+   RowBox[{
+    RowBox[{"\[Omega]", "^", "2"}], "-", 
+    RowBox[{"2", "*", 
+     RowBox[{"\[Beta]", "^", "2"}]}]}], "]"}], 
+  RowBox[{"(*", "Resonanzfrequenz", "*)"}]}]], "Input",
+ CellChangeTimes->{{3.819377985896953*^9, 3.8193779956758175`*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"068110dd-c672-4666-872d-4d8acfc29357"],
+
+Cell[BoxData["5.794825277780168`"], "Output",
+ CellChangeTimes->{{3.819377996000454*^9, 3.8193780150759125`*^9}, {
+   3.819378751842995*^9, 3.819378756826433*^9}, 3.819383386488923*^9, 
+   3.8193835261971326`*^9, 3.819383873746706*^9, 3.8193879678061843`*^9, 
+   3.819388986692716*^9},
+ CellLabel->"Out[74]=",ExpressionUUID->"bf6578f3-58d7-4c10-b221-fe890448eb65"]
+}, Open  ]]
+},
+WindowSize->{1119, 697},
+WindowMargins->{{Automatic, 369}, {Automatic, 142}},
+Magnification:>1.9 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1141, 21, 203, "Input",ExpressionUUID->"ae2322e6-b69c-466e-8d8f-2182e67ed886"],
+Cell[CellGroupData[{
+Cell[1724, 45, 792, 18, 83, "Input",ExpressionUUID->"c286d1fd-e574-4bf2-9899-290415c03ffe"],
+Cell[2519, 65, 556, 8, 62, "Output",ExpressionUUID->"95af1430-176f-4660-83ce-0989bbc8cddc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3112, 78, 375, 9, 83, "Input",ExpressionUUID->"068110dd-c672-4666-872d-4d8acfc29357"],
+Cell[3490, 89, 364, 5, 95, "Output",ExpressionUUID->"bf6578f3-58d7-4c10-b221-fe890448eb65"]
+}, Open  ]]
+}
+]
+*)
+
