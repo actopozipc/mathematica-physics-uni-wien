@@ -2,7 +2,7 @@
 Mathematica-Dateien für verschiedene Rechenvorgänge, die in der Physik öfter vorkommen
 ## Einführung
 Es sind fast ausnahmslos alle Variablen, die zu verändern sind, am Anfang des Dokumentes angegeben. Bei Funktionen wird e^x mit E^x oder Exp[x] angegeben, der ln(x) wird mit Log[x] aufgerufen und die imaginäre Einheit wird mit I bezeichnet.
-##Dateien
+## Dateien
 | Dateiname | Funktionen | 
 | ------------- | ------------- |
 | funktionen-generell  | Zeichnet Funktion; rechnet Definitions- und Werte- bereich; Nullstellen, Limes 0, unendlich, -unendlich; Erste und zweite Ableitungen; Inverse Funktion|
